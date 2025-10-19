@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego "Gatico"</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Atrapa los Peces y moneda</h1>
+    <p>Usa las flechas del teclado para mover al gato</p>
+
+    <div class="game-container">
+        
+        <div class="ui-score">
+            <img src="img/pez.jpeg" alt="Icono Pez" class="ui-icon">
+            <span id="score-text">0</span>
+        </div>
+        <div class="ui-lives">
+            <img src="img/corazon.jpeg" alt="Icono Corazón" class="ui-icon">
+            <span id="lives-text">1</span>
+        </div>
+
+        <img src="img/gato.jpeg" alt="Gato" class="player" id="gato">
+
+        <img src="img/nube.jpeg" alt="Nube" class="asset decor" id="nube1">
+        <img src="img/pez.jpeg" alt="Pez 1" class="asset interactable" id="pez1">
+        <img src="img/pez.jpeg" alt="Pez 2" class="asset interactable" id="pez2">
+        
+        <img src="img/moneda.png" alt="Moneda" class="asset interactable animatable" id="moneda1">
+        <img src="img/corazon.jpeg" alt="Corazón" class="asset interactable animatable" id="corazon1">
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
