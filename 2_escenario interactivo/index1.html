@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minijuego Web</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="game-container">
+        <!-- Escena 1: Cielo con Nubes y Gato -->
+        <div id="game1-container" class="escena activa">
+            <audio id="audio-cielo" src="audio/cielo.mp3" loop></audio>
+            <div class="audio-controls">
+                <button class="play-pause-btn" data-audio="audio-cielo">▶️</button>
+            </div>
+y            <!-- Contadores específicos de la escena 1 -->
+            <div class="scene-counters">
+                <div class="scene-counter">
+                    <img src="img/icono.pez.png" alt="Puntos Pez">
+                    <span id="scene-score-0">0</span>
+                </div>
+                <div class="scene-counter lives-counter">
+                    <img src="img/icono.vida.png" alt="Vidas">
+                    <span id="scene-lives-0">3</span>
+                </div>
+            </div>
+            <div id="game-info">
+                Puntuación: <span id="score">0</span> | Vidas: <span id="lives">3</span>
+            </div>
+            <img id="gato" class="asset" src="img/gato.png" alt="Gato">
+            <img id="pez1" class="asset interactable" src="img/pez.png" alt="Pez">
+            <img id="pez2" class="asset interactable" src="img/pez.png" alt="Pez">
+            <img id="moneda1" class="asset interactable animatable" src="img/moneda.png" alt="Moneda">
+            <img id="corazon1" class="asset interactable animatable" src="img/corazon.png" alt="Corazón">
+            <img id="nube1" class="asset animatable" src="img/nube.png" alt="Nube">
+            <img id="nube2" class="asset animatable" src="img/nube.png" alt="Nube">
+        </div>
+
+        <!-- Escena 2: Campo con Vacas -->
+        <div id="game2-container" class="escena">
+            <audio id="audio-campo" src="audio/campo.mp3" loop></audio>
+            <div class="audio-controls">
+                <button class="play-pause-btn" data-audio="audio-campo">▶️</button>
+            </div>
+            <!-- Contador de puntos para la escena 2 -->
+            <div class="scene-counters">
+                <div class="scene-counter">
+                    <img src="img/icono.vaca.png" alt="Puntos Vaca">
+                    <span id="scene-score-1">0</span>
+                </div>
+            </div>
+            <img id="vaca1" class="asset interactable" src="img/vaca1.png" alt="Vaca">
+            <img id="vaca2" class="asset interactable" src="img/vaca2.png" alt="Vaca">
+            <img id="vaca3" class="asset interactable" src="img/vaca3.png" alt="Vaca">
+            <img id="vaca4" class="asset interactable" src="img/vaca4.png" alt="Vaca">
+            <img id="vaca5" class="asset interactable animatable" src="img/vacaazul.png" alt="Vaca Animada">
+            <img id="vaca6" class="asset interactable animatable" src="img/vacaroja.png" alt="Vaca Animada">
+        </div>
+
+        <!-- Escena 3: Cocina -->
+        <div id="game3-container" class="escena">
+            <audio id="audio-cocina" src="audio/cocina.mp3" loop></audio>
+            <div class="audio-controls">
+                <button class="play-pause-btn" data-audio="audio-cocina">▶️</button>
+            </div>
+            <!-- Contador de puntos para la escena 3 -->
+            <div class="scene-counters">
+                <div class="scene-counter">
+                    <img src="img/icono.comida.png" alt="Puntos Comida">
+                    <span id="scene-score-2">0</span>
+                </div>
+            </div>
+            <img id="comida1" class="asset interactable" src="img/comida1.png" alt="Comida">
+            <img id="comida2" class="asset interactable" src="img/comida2.png" alt="Comida">
+            <img id="comida3" class="asset interactable" src="img/comida3.png" alt="Comida">
+            <img id="comida4" class="asset interactable" src="img/comida4.png" alt="Comida">
+            <img id="comida5" class="asset interactable animatable" src="img/comida3.png" alt="Comida Animada">
+            <img id="comida6" class="asset interactable animatable" src="img/comida2.png" alt="Comida Animada">
+        </div>
+    </div>
+
+    <div class="controls-and-thumbnails">
+        <div class="navigation-buttons">
+            <button class="btn-anterior">Anterior</button>
+            <button class="btn-siguiente">Siguiente</button>
+        </div>
+
+        <div class="miniaturas-container">
+            <div class="miniatura" data-scene="0" style="background-image: url('img/fondo.png');"></div>
+            <div class="miniatura" data-scene="1" style="background-image: url('img/fondo2.png');"></div>
+            <div class="miniatura" data-scene="2" style="background-image: url('img/fondo3.png');"></div>
+        </div>
+    </div>
+
+    <script src="app1.js"></script>
+</body>
+</html>
