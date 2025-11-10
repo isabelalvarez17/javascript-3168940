@@ -1,0 +1,39 @@
+{
+  "documentalInfo": {
+    "tituloPrincipal": "Ruiseñora",
+    "subtitulo": "La Voz de Andrea Echeverri",
+    "genero": "Documental Musical",
+    "formato": "Mini-Serie de 3 Episodios",
+    "year": 2023,
+    "descripcionCorta": "Un viaje íntimo a través de la vida y obra de Andrea Echeverri."
+  },
+  "episodios": [
+    {
+      "id": "ep001",
+      "temporada": 1,
+      "numero": 1,
+      "titulo": "Raices y Ritmos",
+      "duracion": "45 min",
+      "sinopsis": "Los inicios de Andrea en Bogotá y la formación de su identidad artística.",
+      "imagenUrl": "andrea-raices.png"
+    },
+    {
+      "id": "ep002",
+      "temporada": 1,
+      "numero": 2,
+      "titulo": "Aterciopelados Despierta",
+      "duracion": "50 min",
+      "sinopsis": "El ascenso de Aterciopelados y su impacto en el rock latinoamericano.",
+      "imagenUrl": "aterciopelados-banda.png"
+    },
+    {
+      "id": "ep003",
+      "temporada": 1,
+      "numero": 3,
+      "titulo": "Solista y Legado",
+      "duracion": "55 min",
+      "sinopsis": "La etapa solista de Andrea, su activismo y la madurez de su obra.",
+      "imagenUrl": "andrea-solista.png"
+    }
+  ]
+}
