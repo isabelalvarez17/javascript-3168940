@@ -1,5 +1,3 @@
-
-// Nota: Para que fetch funcione correctamente, abre el proyecto con un servidor local (por ejemplo, usando Live Server en VS Code).
 async function cargarDatos() {
     const respuesta = await fetch("bd.json");
     const datos = await respuesta.json();

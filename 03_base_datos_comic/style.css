@@ -5,8 +5,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* HERO */
-/* Centrado vertical del contenido de la hero-section usando flexbox */
+
 .hero-section {
     height: 60vh;
     background-size: cover;
@@ -17,8 +16,6 @@ body {
 }
 
 
-/* Centrado vertical y horizontal del contenido de la hero */
-/* El contenido se alinea a la izquierda y se centra verticalmente por flexbox */
 .hero-content {
     position: relative;
     left: 40px;
@@ -75,15 +72,18 @@ body {
 }
 
 .episode-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* centra las tarjetas en el contenedor */
     gap: 20px;
+    align-items: flex-start;
 }
 
 .episode-card {
     background: #222;
     border-radius: 5px;
     overflow: hidden;
+    width: 240px; 
 }
 
 .episode-thumbnail {

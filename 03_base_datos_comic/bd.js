@@ -1,10 +1,11 @@
-{
+let comic =   {
   "documentalInfo": {
+      "year": 2025,
     "tituloPrincipal": "Ruiseñora",
     "subtitulo": "La Voz de Andrea Echeverri",
     "genero": "Documental Musical",
     "formato": "Mini-Serie de 3 Episodios",
-    "year": 2025,
+
     "descripcionCorta": "Un viaje íntimo a través de la vida y obra de Andrea Echeverri."
   },
   "episodios": [
