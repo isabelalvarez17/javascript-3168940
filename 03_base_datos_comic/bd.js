@@ -1,40 +1,55 @@
-let comic =   {
-  "documentalInfo": {
-      "year": 2025,
-    "tituloPrincipal": "Ruiseñora",
-    "subtitulo": "La Voz de Andrea Echeverri",
-    "genero": "Documental Musical",
-    "formato": "Mini-Serie de 3 Episodios",
+let comic = {
+  "nombreComic": "Ruiseñora",
+  "numeroCapitulos": "3",
+  "genero": 'Documental Musical y ficcion',
+  "sipnosis": " Un viaje íntimo a través de la vida y obra de Andrea Echeverri.",
+  "autores": ["Maria Isabel-Heidi"],
+  "portada": "Image_ylr1raylr1raylr1.png",
+  "year": 2025,
+  
+  "personajes": [
+    {
+    "nombre" : "Andrea echerri ",
+    "descripcion" : "Lorem ipsum dolor sit amet",
+    "imagen" : "im.png",
+    },
 
-    "descripcionCorta": "Un viaje íntimo a través de la vida y obra de Andrea Echeverri."
-  },
-  "episodios": [
     {
-      "id": "ep001",
-      "temporada": 1,
-      "numero": 1,
-      "titulo": "Raices y Ritmos",
-      "duracion": "45 min",
-      "sinopsis": "Los inicios de Andrea en Bogotá y la formación de su identidad artística.",
-      "imagenUrl": "andrea-raices.png"
+    "nombre" : "Andrea echerri Niña",
+    "descripcion" : "Lorem ipsum dolor sit amet",
+    "imagen" : "iman.png",
+    },
+
+    {
+    "nombre" : "Mama de Andrea",
+    "descripcion" : "Lorem ipsum dolor sit amet",
+    "imagen" : "immama.png",
+    },
+], 
+
+
+  "capitulos": [
+    {
+      "id": 1,
+      "nombre" : "Raices y Ritmos",
+      "personajes" : "Andrea Adulta, Andrea Niña, Mamá de Andrea",
+      "portada" : "img/cap1.jpg",
+      "descripcion" : "Los inicios de Andrea en Bogotá y la formación de su identidad artística."
+    },
+    
+      {
+      "id": 2,
+      "nombre": "Aterciopelados Despierta",
+      "personajes": ["Andrea, ect"],
+      "portada": "img/cap2.jpg",
+      "descripcion": "El ascenso de Aterciopelados y su impacto en el rock latinoamericano",
     },
     {
-      "id": "ep002",
-      "temporada": 1,
-      "numero": 2,
-      "titulo": "Aterciopelados Despierta",
-      "duracion": "50 min",
-      "sinopsis": "El ascenso de Aterciopelados y su impacto en el rock latinoamericano.",
-      "imagenUrl": "aterciopelados-banda.png"
-    },
-    {
-      "id": "ep003",
-      "temporada": 1,
-      "numero": 3,
-      "titulo": "Solista y Legado",
-      "duracion": "55 min",
-      "sinopsis": "La etapa solista de Andrea, su activismo y la madurez de su obra.",
-      "imagenUrl": "andrea-solista.png"
+      "id": 3,
+      "nombre": "Solista y Legado",
+      "personajes": ["Andrea, ect"],
+      "portada": "img/cap3.jpg",
+      "descripcion": "La etapa solista de Andrea, su activismo y la madurez de su obra.",
     }
   ]
 }
