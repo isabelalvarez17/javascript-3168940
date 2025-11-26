@@ -1,55 +1,50 @@
 let comic = {
   "nombreComic": "Ruiseñora",
-  "numeroCapitulos": "3",
-  "genero": 'Documental Musical y ficcion',
-  "sipnosis": " Un viaje íntimo a través de la vida y obra de Andrea Echeverri.",
+  "genero": "Documental Musical",
+  "sipnosis": "Un viaje íntimo a través de la vida y obra de Andrea Echeverri. Desde sus raíces en la cerámica hasta convertirse en la voz del rock colombiano.",
   "autores": ["Maria Isabel-Heidi"],
-  "portada": "Image_ylr1raylr1raylr1.png",
+  "portada": "imgportada.andrea.png",
   "year": 2025,
   
   "personajes": [
     {
-    "nombre" : "Andrea echerri ",
-    "descripcion" : "Lorem ipsum dolor sit amet",
-    "imagen" : "im.png",
+      "nombre": "Andrea Echeverri",
+      "descripcion": "La voz líder, artista ceramista y símbolo del rock femenino.",
+      "imagen": "imgandreaadulta.png" 
     },
-
     {
-    "nombre" : "Andrea echerri Niña",
-    "descripcion" : "Lorem ipsum dolor sit amet",
-    "imagen" : "iman.png",
+      "nombre": "Andrea Niña",
+      "descripcion": "Una pequeña llena de curiosidad, descubriendo el arte y la música.",
+      "imagen": "imgandreanina.png" 
     },
-
     {
-    "nombre" : "Mama de Andrea",
-    "descripcion" : "Lorem ipsum dolor sit amet",
-    "imagen" : "immama.png",
-    },
-], 
-
+      "nombre": "Mamá de Andrea",
+      "descripcion": "La figura materna que impulsó su creatividad desde el hogar.",
+      "imagen": "imgmamaandrea.png" 
+    },``
+  ],
 
   "capitulos": [
     {
       "id": 1,
-      "nombre" : "Raices y Ritmos",
-      "personajes" : "Andrea Adulta, Andrea Niña, Mamá de Andrea",
-      "portada" : "img/cap1.jpg",
-      "descripcion" : "Los inicios de Andrea en Bogotá y la formación de su identidad artística."
+      "nombre": "Raíces y Ritmos",
+      "personajes": "Andrea Adulta, Andrea Niña",
+      "portada": "img/cap1.jpg", 
+      "descripcion": "Los inicios de Andrea en Bogotá y la formación de su identidad artística entre arcilla y acordes."
     },
-    
-      {
+    {
       "id": 2,
       "nombre": "Aterciopelados Despierta",
-      "personajes": ["Andrea, ect"],
-      "portada": "img/cap2.jpg",
-      "descripcion": "El ascenso de Aterciopelados y su impacto en el rock latinoamericano",
+      "personajes": "Andrea, Héctor Buitrago",
+      "portada": "img/cap2.jpg", 
+      "descripcion": "El ascenso de la banda y su impacto explosivo en el rock latinoamericano."
     },
     {
       "id": 3,
       "nombre": "Solista y Legado",
-      "personajes": ["Andrea, ect"],
-      "portada": "img/cap3.jpg",
-      "descripcion": "La etapa solista de Andrea, su activismo y la madurez de su obra.",
+      "personajes": "Andrea Echeverri",
+      "portada": "img/cap3.jpg", 
+      "descripcion": "La etapa solista, su activismo feminista y la madurez de su obra musical."
     }
   ]
-}
+};
